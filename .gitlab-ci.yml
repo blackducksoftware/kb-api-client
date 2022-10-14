@@ -17,8 +17,7 @@ stages:
 # Build Jobs
 gradleAssembleJob:
   stage: assemble
-  tags:
-    - blackduck
+  image: releng/base-gitlab-runner:jdk11-python3.8-git
   script:
     - echo "Branch = ${CI_COMMIT_BRANCH}"
     - bash ./gradlew assemble --stacktrace --parallel
@@ -26,7 +25,6 @@ gradleAssembleJob:
 # Test jobs
 gradleTestJob:
   stage: check
-  tags:
-    - blackduck
+  image: releng/base-gitlab-runner:jdk11-python3.8-git
   script:
     - bash ./gradlew check --stacktrace
