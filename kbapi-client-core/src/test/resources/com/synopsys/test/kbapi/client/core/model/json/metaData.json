@@ -1,0 +1,18 @@
+{
+	"href": "https://kb/path?offset=0&limit=10&sort=href%20asc",
+	"links": [
+		{
+			"rel": "next",
+			"href": "https://kb/path?offset=10&limit=10&sort=href%20asc"
+		}
+	],
+	"filters": [
+		{
+			"queryKey": "filterName",
+			"href": "https://kb/path-filters?name=filterName"
+		}
+	],
+	"deprecation": {
+		"message": "Deprecated. Use path2 instead"
+	}
+}
