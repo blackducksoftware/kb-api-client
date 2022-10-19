@@ -47,6 +47,8 @@ public final class TestFile {
 
     public static final TestFile META_DATA_MINIMUM_JSON = new TestFile(RESOURCES_MODEL_JSON_PATH.resolve("metaDataMinimum.json"));
 
+    public static final TestFile PAGE_RESPONSE_JSON = new TestFile(RESOURCES_MODEL_JSON_PATH.resolve("pageResponse.json"));
+
     private final Path pathRelativeToSourceDir;
 
     private TestFile(Path pathRelativeToSourceDir) {
