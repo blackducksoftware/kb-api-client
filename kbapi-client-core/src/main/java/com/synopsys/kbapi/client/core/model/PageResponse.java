@@ -24,6 +24,10 @@ import com.google.common.base.MoreObjects;
 /**
  * Representation of a response which is an ordered, paged sub-set of a dynamic data set
  *
+ * <p>
+ * Part of the kb-client-core library. Contributions and issues may be made to the blackducksoftware/kb-api-client
+ * GitHub repository
+ *
  * @author romeara
  * @since 0.1.0
  */

@@ -23,6 +23,10 @@ import com.google.common.base.MoreObjects;
 /**
  * Represents a possible filter on representations returned from the resource associated with the meta-data
  *
+ * <p>
+ * Part of the kb-client-core library. Contributions and issues may be made to the blackducksoftware/kb-api-client
+ * GitHub repository
+ *
  * @author romeara
  * @since 0.1.0
  */
