@@ -13,6 +13,10 @@
 /**
  * Contains representations of core API requests and responses such as meta-data and pages
  *
+ * <p>
+ * Part of the kb-client-core library. Contributions and issues may be made to the blackducksoftware/kb-api-client
+ * GitHub repository
+ *
  * @author romeara
  * @since 0.1.0
  */
